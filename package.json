@@ -14,7 +14,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suiGn/this.wallet.git"
+    "url": "git+https://github.com/neurons-me/this.wallet.git"
   },
   "homepage": "https://www.npmjs.com/package/this.wallet",
   "docs": "https://suiGn.github.io/this.wallet",
