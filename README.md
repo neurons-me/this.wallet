@@ -1,62 +1,55 @@
 <img src="https://suign.github.io/assets/imgs/wallet.crypto-removebg-preview.png" alt="this.wallet" width="244" align="left">
 
-# This.Wallet for .me
+# THIS.WALLET
 
  Structured data for further interactions within your wallet, leveraging the power of machine learning.
 
 **This.wallet** manages transactional data, account balances, or other financial information, it also formats this data into a structure that is consumable by neural networks for analysis, predictions, or learning purposes.
 
-## Installation:
+# Getting Started:
+
+##### **Install `this.wallet`:**
+
+Open your terminal and run the following command to install the `this.me` package:
 
 ```bash
 npm install this.wallet
 ```
 
-### 1. **Class Structure Overview**
+##### **Import `this.wallet` in Your Project:**
 
-- **`Wallet` Class**: This class will handle the creation of accounts and the management of different cryptocurrency balances.
-- **`Account` Class**: Each account will hold addresses and balances for different cryptocurrencies.
+In the JavaScript file where you want to use `this.wallet`, import the `thisWallet` class.
 
-### Example Usage of Wallet with Multiple Blockchains per Account
-
-```javascript
-node ./src/example.js
+```js
+import thisWallet from 'this.wallet';
 ```
 
-### Example Output
-
-```json
-{
-  walletId: '43f2d688fd6e5f0cd7a8f38443bda79cc0175a5f8b71f167deb6d032309b9ad8',
-  accounts: { account001: Account { blockchain: [Object] } }
-}
-```
-
-### Explanation
-
-1. **Wallet Structure**:
-   - The wallet contains `accounts`, each of which can manage multiple blockchains (Ethereum, Bitcoin, Stellar, etc.).
-2. **Creating and Managing Accounts**:
-   - **`createAccount(accountName)`**: Creates a new account within the wallet.
-
-### Summary
-
-This setup allows each account within a wallet to manage multiple blockchains, making it easy to organize and manage your crypto assets. The `Wallet` class is now capable of creating accounts, initializing new blockchain wallets, and importing existing ones, all under the same account. This approach provides both flexibility and security, with the ability to manage multiple blockchains under one account name.
 
 
+## Summary
 
+This setup allows each account within a wallet to manage multiple blockchains, making it easy to organize and manage your crypto assets. The `Wallet` class is capable of creating accounts, initializing new blockchain wallets, and importing existing ones, all under the same account. This approach provides both flexibility and security, with the ability to manage multiple blockchains under one account name.
 
-----------
-# About All.This:
-**[this.me](https://suign.github.io/this.me)  - [this.audio](https://suign.github.io/this.audio) - [this.text](https://suign.github.io/this.text) - [this.wallet](https://suign.github.io/this.wallet) - [this.img](https://suign.github.io/this.img) - [this.pixel](https://suign.github.io/Pixels) - [be.this](https://suign.github.io/be.this) - [this.DOM](https://suign.github.io/this.DOM) - [this.env](https://suign.github.io/this.env/) - [this.GUI](https://suign.github.io/this.GUI) - [this.be](https://suign.github.io/this.be) - [this.video](https://suign.github.io/this.video) - [this.atom](https://suign.github.io/this.atom) - [this.dictionaries](https://suign.github.io/this.dictionaries/)**
+# What is All.This?
 
-These classes encapsulate the functionalities to domain-specific data.
+###### Modular Data Structures:
 
-## Neurons.me 
-###### License & Policies
+**Each module** in **[all.this](https://neurons.me/all-this)** represents a specific **datastructure**. These **classes** encapsulate the functionalities and **data specific to their domain.**
+
+**[this.me](https://docs.neurons.me/this.me/index.html)  - [this.audio](https://docs.neurons.me/this.audio/index.html) - [this.text](https://docs.neurons.me/this.text/index.html) - [this.wallet](https://docs.neurons.me/this.wallet/index.html) - [this.img](https://docs.neurons.me/this.img/index.html) - [this.pixel](https://docs.neurons.me/this.pixel/index.html) - [be.this](https://docs.neurons.me/be.this/index.html) - [this.DOM](https://docs.neurons.me/this.DOM/index.html) - [this.env](https://docs.neurons.me/this.env/index.html) - [this.GUI](https://docs.neurons.me/this.GUI/index.html) - [this.be](https://docs.neurons.me/this.be/index.html) - [this.video](https://docs.neurons.me/this.video/index.html) - [this.dictionaries](https://docs.neurons.me/this.dictionaries/index.html)** 
+
+#### Contribution
+
+If you are interested in collaborating or wish to share your insights, please feel free to reach out or contribute to the project.
+
+#### License & Policies
+
 - **License**: MIT License (see LICENSE for details).
-- **Privacy Policy**: Respects user privacy; no collection/storage of personal data.
-- **Terms of Usage**: Use responsibly. No guarantees/warranties provided.
-   [Terms](https://www.neurons.me/terms-of-use) | [Privacy](https://www.neurons.me/privacy-policy)
-  [By neurons.me](https://neurons.me)
-    <img src="https://suign.github.io/assets/imgs/neurons_me_logo.png" alt="neurons.me logo" width="89">
+
+- **Learn more** at **https://docs.neurons.me**
+
+  [Terms](https://docs.neurons.me/terms-and-conditions) | [Privacy](https://docs.neurons.me/privacy-policy)
+
+  <img src="https://docs.neurons.me/neurons.me.webp" alt="neurons.me logo" width="123" height="123">
+
+  
