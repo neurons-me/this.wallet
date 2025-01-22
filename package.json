@@ -1,6 +1,6 @@
 {
   "name": "this.wallet",
-  "version": "1.0.56",
+  "version": "1.0.57",
   "description": "This.wallet for this.me.",
   "main": "index.js",
   "scripts": {
