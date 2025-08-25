@@ -4,7 +4,7 @@
  * Universal module for crypto wallet operations.
  * Works both in browser and Node.js environments.
  */
-import Wallet from './src/wallet.js';
-export default Wallet;
-export { Wallet };
-console.log('this.wallet loaded.');
+import wallet from './src/wallet.js';
+export default wallet;
+export { wallet };
+console.log('.wallet loaded.');

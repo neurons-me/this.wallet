@@ -30,7 +30,7 @@ function createHandler(type, options) {
  * - GetTypeInfo: Returns information about the wallet type and networks. 
  */
 
-export class Wallet {
+export class wallet {
   constructor({ type = 'ethereum', privateKey = null, publicKey = null, address = null } = {}) {
     this.handler = createHandler(type, { privateKey, publicKey, address });
     this.type = type;
@@ -108,3 +108,4 @@ export class Wallet {
     return wallet;
   }
 }
+export default wallet;

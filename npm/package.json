@@ -9,7 +9,11 @@
   },
   "keywords": [
     "crypto",
-    "wallets"
+    "wallets",
+    "Blockchains",
+    "Ethereum",
+    "Bitcoin",
+    "Stellar"
   ],
   "type": "module",
   "repository": {
