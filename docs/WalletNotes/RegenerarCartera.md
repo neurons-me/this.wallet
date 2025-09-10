@@ -7,10 +7,10 @@ Una cartera se puede regenerar de dos formas principales, y ambas son válidas p
 1. ##### **Desde la privateKey**
 
 •	Es una representación más directa.
-•	Pros:
+**Pros:**
 •	Más simple, más corta.
 •	No necesitas librerías HD ni derivaciones.
-•	Contras:
+**Contras:**
 •	Solo accedes a una sola cuenta.
 •	No puedes generar sub-cuentas adicionales (como en HD wallets).
 

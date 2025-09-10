@@ -54,8 +54,7 @@ new Wallet({
 });
 ```
 
-
-⸻
+---
 
 **⚙️ ¿Qué significa esto para this.wallet?**
  1. La clase **Wallet** necesita ser más expresiva:

@@ -7,4 +7,4 @@
 import Wallet from './src/wallet.js';
 export default Wallet;
 export { Wallet };
-console.log('this.wallet loaded.');
+console.log('.wallet loaded.');

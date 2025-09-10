@@ -9,10 +9,10 @@ Cuando mueves ETH de Ethereum a BNB Chain, lo que tienes en BNB no es ETH nativo
 
 Cuando usas un bridge (puente), lo que haces es:
 
-	1.	Bloquear tu ETH real en la blockchain de Ethereum.
-	2.	Se crea un token equivalente en BNB Chain, llamado usualmente WETH (Wrapped ETH) o similar.
-	3.	En BNB, ese token vive como un token BEP-20, no como ETH nativo.
-	4.	Si quieres regresarlo, quemas ese token y el bridge te libera el ETH en la red original.
+1.	Bloquear tu ETH real en la blockchain de Ethereum.
+2.	Se crea un token equivalente en BNB Chain, llamado usualmente WETH (Wrapped ETH) o similar.
+3.	En BNB, ese token vive como un token BEP-20, no como ETH nativo.
+4.	Si quieres regresarlo, quemas ese token y el bridge te libera el ETH en la red original.
 
 🔐 Técnicamente, estás confiando en el bridge para que custodie el original y te dé el clon representativo.
 
@@ -56,12 +56,12 @@ Mecanismo	¿Legalmente respaldado?	¿Qué lo respalda?
 Ethereum ETH	✅ Sí (nativamente por la red)	Código, nodos, consenso
 BNB WETH	❌ No (solo representación)	Contrato inteligente y custodia (de Binance o un bridge)
 
-#### 🧭 Conclusión para this.wallet, this.me.
+#### 🧭 Conclusión para this.wallet:
 
-	1.	Nunca trates un token envuelto (wrapped) como si fuera la moneda real.
-	2.	Muestra claramente la red, el tipo de token, y su respaldo.
-	3.	Diferencia los balances de tokens nativos vs. tokens “representativos”.
-	4.	Si algún día quieres crear un bridge propio: explica brutalmente bien el riesgo.
+1.	Nunca trates un token envuelto (wrapped) como si fuera la moneda real.
+2.	Muestra claramente la red, el tipo de token, y su respaldo.
+3.	Diferencia los balances de tokens nativos vs. tokens “representativos”.
+4.	Si algún día quieres crear un bridge propio: explica brutalmente bien el riesgo.
 
 ----
 
@@ -89,9 +89,9 @@ privateKey → publicKey (mediante criptografía elíptica)
 
 address = keccak256(publicKey).slice(-20 bytes)
 
-⸻
+---
 
-🧠 Resumen visual
+**🧠 Resumen visual**
 
 privateKey ➝ publicKey ➝ address
 (secreta)     (pública)     (pública)
